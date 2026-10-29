@@ -1,25 +1,30 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:07:39.196095+00:00",
+  "source_snapshot_utc": "2026-10-29T07:12:23.969656+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
-      "bytes": 311,
-      "sha256": "ff801f2d08f4e279821cc2a9787b723ea897ab03b93c6d31dafc91afbc42fee7"
+      "bytes": 298,
+      "sha256": "3bf8c6048a92e11e56b5e658a783e786240242503b6ef53368fe469d02b386f2"
     },
     {
       "path": ".gitignore",
-      "bytes": 135,
-      "sha256": "22d4eaee305e67584737d9b3ca7f7c1bb8c30cb15b2e8e3875d3d5cfe09ed358"
+      "bytes": 124,
+      "sha256": "e617ae056bcea7553fb3bd605e137457155b63faaa5b880fe5d5bc2495f2e28e"
+    },
+    {
+      "path": "docs/official-readback.json",
+      "bytes": 599,
+      "sha256": "38d977d8d65b8eb66913df324cd8e8f794a05570434d6db775541b3822b95591"
     },
     {
       "path": "docs/PROJECT_STATUS.json",
-      "bytes": 283,
-      "sha256": "e69b7b6b9b5704e678f09a30ede51b7ca3f6d5ac2657da357abbfe6a1fe88783"
+      "bytes": 276,
+      "sha256": "2f3203b6dfd5034d658e0d75b818c85ef0601068cc484c4422ff24ef213ff459"
     },
     {
       "path": "docs/RESEARCH_PROTOCOL.md",
-      "bytes": 1019,
-      "sha256": "68d8a6ee01a9b892000e4b4b270da8c38d5ebe9fc504a708c576fe81b05f6b15"
+      "bytes": 1012,
+      "sha256": "75644869eb164766415151e4d6983e9af5f0659dd85b48fe43c7f4c2a8b29764"
     },
     {
       "path": "experiments/configs/d001.json",
@@ -118,13 +123,13 @@
     },
     {
       "path": "experiments/LOG.md",
-      "bytes": 6315,
-      "sha256": "d6b9bff444ee7ad2cd81d072966d68797f37ace064b775de97e04f1065c80a12"
+      "bytes": 6237,
+      "sha256": "cbc92aa295c68b4533e409d20cde6a2c3700402f0a69332a4facd7268191dc21"
     },
     {
       "path": "experiments/runs.csv",
-      "bytes": 6342,
-      "sha256": "7913c2cd478725f31a8d2e876857e268b1a7146d2a29005a4f38d2927e200350"
+      "bytes": 6327,
+      "sha256": "71bd49f323be48e5823d8432b1ddda8c3d21ed29e306ce8d910207a4269c6649"
     },
     {
       "path": "LICENSE",
@@ -138,8 +143,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3048,
-      "sha256": "83d1ea7490f597835085dafba76020f3bbd7b2fbaed952e0dfdbf37f6ed42438"
+      "bytes": 3120,
+      "sha256": "0d575d54cd77f6f8ad8c427271a7d27f8b889d76936c8c8919e17d62e1f41178"
     },
     {
       "path": "requirements.txt",
@@ -148,18 +153,18 @@
     },
     {
       "path": "src/darwin_body.py",
-      "bytes": 7643,
-      "sha256": "eaa7eb027a7e0c773b34992584b132ab7773c837eff610a2687ad681171d06a8"
+      "bytes": 7502,
+      "sha256": "33e08b7f8611a54ab1d9419b4c5426f22fc412d673bd56a12faf5121a4c60190"
     },
     {
       "path": "src/darwin_core.py",
-      "bytes": 10453,
-      "sha256": "d4a0292a548dc444e4f9b36135ba6c3b2c7d3b98aeda0b04802865181c4f5dda"
+      "bytes": 10232,
+      "sha256": "66b6688d780314d334e453284ce2e01a011138800c702bdf1c1304f5467f7882"
     },
     {
       "path": "src/public_body.py",
-      "bytes": 7716,
-      "sha256": "610b5e826fcaf73dae67c10683bdeacdeacd6231d082720c7ac443940ae26d8c"
+      "bytes": 7563,
+      "sha256": "622533216150a012d71d5e6d2c930ea9bba7a3889e98d10b66c1736a383dd1c3"
     },
     {
       "path": "src/runner_body.py",
@@ -183,8 +188,8 @@
     },
     {
       "path": "tools/check_release.py",
-      "bytes": 1341,
-      "sha256": "64ff3f8ad74db8a5fc1990965d366240f7930f599ab3113bc7e2a439226b1c3a"
+      "bytes": 1318,
+      "sha256": "c0370e075a1b624184c722b2516a79e046a421f8085d08485cb082bdb9b0c124"
     },
     {
       "path": "tools/darwin_reapply.py",
@@ -198,13 +203,13 @@
     },
     {
       "path": "tools/make_kernel.py",
-      "bytes": 1659,
-      "sha256": "33788d8b91b04116144f637b85fd44bea36cf88421418d5ff15a4b986ad9513b"
+      "bytes": 1627,
+      "sha256": "21c39a5b64c97ad39697c72a9fea79ea46e6bc106b73767d961e746ceae6faea"
     },
     {
       "path": "tools/update_manifest.py",
-      "bytes": 649,
-      "sha256": "1f3fba6a0e3c5f0398450ef6ea6c2734fc2020264a0e6253fb0f10515b0e76df"
+      "bytes": 653,
+      "sha256": "0538a3dbdfe064c5ffdf44ea142d78df0b6af0819cbfb8cb0cdc686c26196595"
     },
     {
       "path": "tools/wait_kernel.sh",

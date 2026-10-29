@@ -14,7 +14,7 @@ Reproducible project for [Kaggle Playground S6E10](https://www.kaggle.com/compet
 | D002 Darwin on own blend,3seeds |1/0/1 programs confirmed; applying them lowers AUC about0.0006 | Rejected for final blend |
 | D003 Darwin on full stack,3seeds |0/0/0 programs confirmed; calibration-only change−0.000004 | No contribution established on final stack |
 
-The improvement from public members is **not attributed to Darwin-Cage**. D001 remains a positive result: independent program search finds the route interaction later absorbed by the stronger control. D002/D003 do not erase it, and D001 does not establish a final-ensemble gain. Scores above are traceable campaign records; an archived official receipt is needed for independent acceptance verification. See [complete log](experiments/LOG.md) and [configurations](experiments/configs).
+The improvement from public members is **not attributed to Darwin-Cage**. D001 remains a positive result: independent program search finds the route interaction later absorbed by the stronger control. D002/D003 do not erase it, and D001 does not establish a final-ensemble gain. The three official scores above were independently re-read through the authenticated Kaggle API on29October; all three entries are COMPLETE. [Dated official readback](docs/official-readback.json). See [complete log](experiments/LOG.md) and [configurations](experiments/configs).
 
 ## Reproduce
 

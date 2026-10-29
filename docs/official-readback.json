@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-10-29T07:08:11.734907+00:00",
+  "competition": "playground-series-s6e10",
+  "submissions": [
+    {
+      "ref": "57759904",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.96166",
+      "date": "2026-10-29 05:22:36.350000"
+    },
+    {
+      "ref": "57759629",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.96083",
+      "date": "2026-10-29 05:11:35.410000"
+    },
+    {
+      "ref": "57736176",
+      "status": "SubmissionStatus.COMPLETE",
+      "public_score": "0.95798",
+      "date": "2026-10-28 12:15:14.437000"
+    }
+  ]
+}
