@@ -1,0 +1,4 @@
+{"slug":"e006-lgb-cpu","experiments":[
+ {"name":"E006_lgb_base","model":"lgb","cats":"base","params":{"n_estimators":20000,"learning_rate":0.03,"num_leaves":63,"min_child_samples":40,"subsample":0.8,"subsample_freq":1,"colsample_bytree":0.6,"reg_lambda":1.0,"es":300},"seeds":[0]},
+ {"name":"E007_lgb_orig","model":"lgb","cats":"base","use_orig":true,"params":{"n_estimators":20000,"learning_rate":0.03,"num_leaves":63,"min_child_samples":40,"subsample":0.8,"subsample_freq":1,"colsample_bytree":0.6,"reg_lambda":1.0,"es":300},"seeds":[0]},
+ {"name":"E008_lgb_eng","model":"lgb","cats":"base","features":"eng","params":{"n_estimators":20000,"learning_rate":0.03,"num_leaves":63,"min_child_samples":40,"subsample":0.8,"subsample_freq":1,"colsample_bytree":0.6,"reg_lambda":1.0,"es":300},"seeds":[0]}]}

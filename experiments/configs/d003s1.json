@@ -1,0 +1,1 @@
+{"slug":"d003-darwin-s001-s1","kind":"darwin","scores_file":"l2oof_lr_all_C0.003.npy","scores_test_file":"l2test_lr_all_C0.003.npy","minutes":35,"seed":3027,"apply":true,"apply_k":3,"apply_tag":"D003_darwin_s001_s1","kernel_sources":["franciscoangulo/s6e10-s001-stack"]}

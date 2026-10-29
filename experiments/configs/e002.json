@@ -1,0 +1,5 @@
+{"slug":"e002-cat-variants","experiments":[
+ {"name":"E002_cat_ratingscat","model":"cat","cats":"ratings","params":{"iterations":8000,"learning_rate":0.06,"depth":7,"od_wait":300},"seeds":[0]},
+ {"name":"E003_cat_allcat","model":"cat","cats":"all","params":{"iterations":8000,"learning_rate":0.06,"depth":7,"od_wait":300},"seeds":[0]},
+ {"name":"E004_cat_orig","model":"cat","cats":"base","use_orig":true,"params":{"iterations":8000,"learning_rate":0.06,"depth":7,"od_wait":300},"seeds":[0]},
+ {"name":"E005_cat_origflag","model":"cat","cats":"base","use_orig":true,"orig_flag":true,"params":{"iterations":8000,"learning_rate":0.06,"depth":7,"od_wait":300},"seeds":[0]}]}

@@ -1,0 +1,215 @@
+{
+  "source_snapshot_utc": "2026-10-29T07:07:39.196095+00:00",
+  "files": [
+    {
+      "path": ".github/workflows/release.yml",
+      "bytes": 311,
+      "sha256": "ff801f2d08f4e279821cc2a9787b723ea897ab03b93c6d31dafc91afbc42fee7"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 135,
+      "sha256": "22d4eaee305e67584737d9b3ca7f7c1bb8c30cb15b2e8e3875d3d5cfe09ed358"
+    },
+    {
+      "path": "docs/PROJECT_STATUS.json",
+      "bytes": 283,
+      "sha256": "e69b7b6b9b5704e678f09a30ede51b7ca3f6d5ac2657da357abbfe6a1fe88783"
+    },
+    {
+      "path": "docs/RESEARCH_PROTOCOL.md",
+      "bytes": 1019,
+      "sha256": "68d8a6ee01a9b892000e4b4b270da8c38d5ebe9fc504a708c576fe81b05f6b15"
+    },
+    {
+      "path": "experiments/configs/d001.json",
+      "bytes": 167,
+      "sha256": "7d885e021efd8646470421c9ff7a381032f131fb9d37109884ae4451b91cd905"
+    },
+    {
+      "path": "experiments/configs/d002s1.json",
+      "bytes": 261,
+      "sha256": "46aab934021d051b41320eb845d4d2540d741e8f84af9efcb81e652f29600fa9"
+    },
+    {
+      "path": "experiments/configs/d002s2.json",
+      "bytes": 261,
+      "sha256": "67b580ce77cf6583536d8e3942da9e9279a005bd8177ee7c5ad2a4ec357268ad"
+    },
+    {
+      "path": "experiments/configs/d002s3.json",
+      "bytes": 261,
+      "sha256": "8ad570ffe0f1e6930942904923b9c1f343afdae77c8a9640eba5b0976e7df221"
+    },
+    {
+      "path": "experiments/configs/d003s1.json",
+      "bytes": 271,
+      "sha256": "e7f3f9b4d85895771b3b2aad4f2c0ab9d18945238033db0a5164645357c569c7"
+    },
+    {
+      "path": "experiments/configs/d003s2.json",
+      "bytes": 271,
+      "sha256": "86a1a71099468bd81ed451724810650ffd2f6e98a7614db6e2dd21829ca91be5"
+    },
+    {
+      "path": "experiments/configs/d003s3.json",
+      "bytes": 271,
+      "sha256": "e5a33d89ea72359df5cbe73be2fc178671edd3dd0e2c5d5074fd7da48acbee66"
+    },
+    {
+      "path": "experiments/configs/darwin_smoke.json",
+      "bytes": 87,
+      "sha256": "5ff006862886bb914dd271b1c5a6c45267579d5bfaf9c477ab83eeb91dfbeaaf"
+    },
+    {
+      "path": "experiments/configs/e001.json",
+      "bytes": 201,
+      "sha256": "8b83fe3238fcca109d2c523e59eae139f674de362d5fb67f61414968f0a5bc2d"
+    },
+    {
+      "path": "experiments/configs/e002.json",
+      "bytes": 672,
+      "sha256": "b2bcc5e614456405953c9f84cced39dbd23e02e9cd4f890b7ea561b9a66d3958"
+    },
+    {
+      "path": "experiments/configs/e006.json",
+      "bytes": 801,
+      "sha256": "a18a253493799317e2561415a64eacd67d44c636efe2601d8578294788992e05"
+    },
+    {
+      "path": "experiments/configs/e009.json",
+      "bytes": 534,
+      "sha256": "21f6c759d20c50817d38d3aa765de58a76579e5246607b3ec8d06bfd5a515bfa"
+    },
+    {
+      "path": "experiments/configs/e011.json",
+      "bytes": 614,
+      "sha256": "24a1cdbacf2660feeff0bd83563289657bdf8025b868fce87785793609c21326"
+    },
+    {
+      "path": "experiments/configs/e013.json",
+      "bytes": 435,
+      "sha256": "c3bfb968e4b184a6459d1066e24bd3cc55034b528218b47c715e69791ec42347"
+    },
+    {
+      "path": "experiments/configs/e015.json",
+      "bytes": 516,
+      "sha256": "c17369931c325d21c4c5378978afe2f76173e43e374a0ad60ffad5c5e5b9f2f2"
+    },
+    {
+      "path": "experiments/configs/s001.json",
+      "bytes": 415,
+      "sha256": "d7d5551bf07d646f5387bb62fd08cd5e3a6f252d81a3a720ecb4ec161d5292fb"
+    },
+    {
+      "path": "experiments/configs/smoke.json",
+      "bytes": 495,
+      "sha256": "c9e0a44e6e9fc560185a1f5e2e6799ad9d833634a02be35694929aa60f07aa52"
+    },
+    {
+      "path": "experiments/configs/smoke2.json",
+      "bytes": 622,
+      "sha256": "76f4b5e0bb7ceef4cd32c0063bdfdb5367f109adbe2a10caf8786de842713970"
+    },
+    {
+      "path": "experiments/configs/t001.json",
+      "bytes": 402,
+      "sha256": "f9f5baa65794ae1aa191ef4f4b73000bf05d5eb056c31825012423c894fb849b"
+    },
+    {
+      "path": "experiments/LOG.md",
+      "bytes": 6315,
+      "sha256": "d6b9bff444ee7ad2cd81d072966d68797f37ace064b775de97e04f1065c80a12"
+    },
+    {
+      "path": "experiments/runs.csv",
+      "bytes": 6342,
+      "sha256": "7913c2cd478725f31a8d2e876857e268b1a7146d2a29005a4f38d2927e200350"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1085,
+      "sha256": "afa3de7e3edd0ad130afc2f31d1f8dbc0a4bda40899f7ecce9c032310e4701c5"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 208,
+      "sha256": "30f7f170c5bf778de20a9e7830fe88d19821ec0f1fec52fbf22c92bbd68eca85"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3048,
+      "sha256": "83d1ea7490f597835085dafba76020f3bbd7b2fbaed952e0dfdbf37f6ed42438"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 74,
+      "sha256": "0cb7fd1687f02eeeabfc0f723505df4d37bd86d94378304448be845764b702ea"
+    },
+    {
+      "path": "src/darwin_body.py",
+      "bytes": 7643,
+      "sha256": "eaa7eb027a7e0c773b34992584b132ab7773c837eff610a2687ad681171d06a8"
+    },
+    {
+      "path": "src/darwin_core.py",
+      "bytes": 10453,
+      "sha256": "d4a0292a548dc444e4f9b36135ba6c3b2c7d3b98aeda0b04802865181c4f5dda"
+    },
+    {
+      "path": "src/public_body.py",
+      "bytes": 7716,
+      "sha256": "610b5e826fcaf73dae67c10683bdeacdeacd6231d082720c7ac443940ae26d8c"
+    },
+    {
+      "path": "src/runner_body.py",
+      "bytes": 15670,
+      "sha256": "c95c3387054b03505f27a2955e8e94524cba82ab87dc27a39cd6453278b2c439"
+    },
+    {
+      "path": "src/stack_body.py",
+      "bytes": 4406,
+      "sha256": "e780b66b0023f28c248fb072666fa5588beee0889511d88fad00eee3c667fab4"
+    },
+    {
+      "path": "tools/blend.py",
+      "bytes": 4890,
+      "sha256": "1cebcac9257b43d347cf48f715e0076b9d1a4bdc0de0b83b5f2511960a9b6485"
+    },
+    {
+      "path": "tools/check_env.py",
+      "bytes": 287,
+      "sha256": "74a07042e311afb3b717aca8e53fa556444ff4156650c8a4550a7c08b8ffec58"
+    },
+    {
+      "path": "tools/check_release.py",
+      "bytes": 1341,
+      "sha256": "64ff3f8ad74db8a5fc1990965d366240f7930f599ab3113bc7e2a439226b1c3a"
+    },
+    {
+      "path": "tools/darwin_reapply.py",
+      "bytes": 4877,
+      "sha256": "c5be3d55dec8221f6a719862e08c1abd89085c341518fa6a28fef61038f2907c"
+    },
+    {
+      "path": "tools/log_runs.py",
+      "bytes": 1368,
+      "sha256": "b098b16cc610f3d94612cf3588cc4738f7ca6c969f36a2f970497420b40e3ade"
+    },
+    {
+      "path": "tools/make_kernel.py",
+      "bytes": 1659,
+      "sha256": "33788d8b91b04116144f637b85fd44bea36cf88421418d5ff15a4b986ad9513b"
+    },
+    {
+      "path": "tools/update_manifest.py",
+      "bytes": 649,
+      "sha256": "1f3fba6a0e3c5f0398450ef6ea6c2734fc2020264a0e6253fb0f10515b0e76df"
+    },
+    {
+      "path": "tools/wait_kernel.sh",
+      "bytes": 757,
+      "sha256": "73bbb932cc4c16c4a7850092c7bd899f7bfbec05984335f9443753f6f8ff944a"
+    }
+  ]
+}

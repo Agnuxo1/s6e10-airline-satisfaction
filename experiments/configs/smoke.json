@@ -1,0 +1,6 @@
+{"slug":"smoke","experiments":[
+ {"name":"cat_base","model":"cat","params":{"iterations":60},"seeds":[0],"submit_file":true},
+ {"name":"cat_orig","model":"cat","params":{"iterations":60},"use_orig":true,"orig_flag":true,"seeds":[0]},
+ {"name":"xgb_base","model":"xgb","params":{"n_estimators":60},"seeds":[0]},
+ {"name":"lgb_eng","model":"lgb","features":"eng","params":{"n_estimators":60},"seeds":[0]},
+ {"name":"cat_allcat","model":"cat","cats":"all","params":{"iterations":60},"seeds":[0]}]}

@@ -1,0 +1,1 @@
+{"slug":"d002-darwin-b001-s1","kind":"darwin","scores_file":"oof_B001_stack.npy","scores_test_file":"test_B001_stack.npy","minutes":35,"seed":2027,"apply":true,"apply_k":3,"apply_tag":"D002_darwin_b001_s1","extra_datasets":["franciscoangulo/s6e10-blend-b001"]}
