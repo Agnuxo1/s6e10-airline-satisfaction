@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T07:20:14.512178+00:00",
+  "source_snapshot_utc": "2026-10-29T08:39:38.160161+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -20,6 +20,56 @@
       "path": "docs/PROJECT_STATUS.json",
       "bytes": 276,
       "sha256": "2f3203b6dfd5034d658e0d75b818c85ef0601068cc484c4422ff24ef213ff459"
+    },
+    {
+      "path": "docs/readme/01-banner.gif",
+      "bytes": 684998,
+      "sha256": "7ef2260af6dc4ede2057375ff824c867fd36d50ad849cd2de24d80882f1cd414"
+    },
+    {
+      "path": "docs/readme/02-background.gif",
+      "bytes": 172683,
+      "sha256": "afcbd053fa1decf212e0a3511bb2b4e6e55f667c4f1abf26096d2ab214ca0337"
+    },
+    {
+      "path": "docs/readme/03-results.gif",
+      "bytes": 352170,
+      "sha256": "053429e6bbce675d30dd7bc646dd8f93265f7082a97fe98e69cf0204cc591338"
+    },
+    {
+      "path": "docs/readme/04-darwin-diagnostics.gif",
+      "bytes": 345590,
+      "sha256": "f499ed228ac3b9b5a9c153df637065bbe525a92e455cf89f512d99e1d3f3300d"
+    },
+    {
+      "path": "docs/readme/05-run-log.gif",
+      "bytes": 502312,
+      "sha256": "dda16a2f0e91846b21f53dfcf08c3d68225965fee89551f4257ba3a6f7e64704"
+    },
+    {
+      "path": "docs/readme/06-reproduce.gif",
+      "bytes": 232624,
+      "sha256": "068f35a18bbbc6cc56afa657b8839763936bb5d6ae32c0b9aafb29bd3c422de0"
+    },
+    {
+      "path": "docs/readme/07-applications.gif",
+      "bytes": 676679,
+      "sha256": "7286039be74064050876e872bdc31382ea3de4597d28b2050d6bfcd1aaa88e0e"
+    },
+    {
+      "path": "docs/readme/08-improvements.gif",
+      "bytes": 463346,
+      "sha256": "c2f4b0b2b097aba0ce13f32c1fdd1a0b3af1e2dce4c429f4600ae7a41ac968db"
+    },
+    {
+      "path": "docs/readme/09-roadmap.gif",
+      "bytes": 242809,
+      "sha256": "2f473bcc8e7d65c327080ccce37a3e49f1b88842e8c60d3a5bdff5e0d5b3424e"
+    },
+    {
+      "path": "docs/readme/10-structure.gif",
+      "bytes": 1262529,
+      "sha256": "256b88e8ce462716925431d382fd8d2d2439a8005bf71448ea09933fd386fcc9"
     },
     {
       "path": "docs/RESEARCH_PROTOCOL.md",
@@ -143,8 +193,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3139,
-      "sha256": "e28492fffd403a494343242621b1940053688288e40ff5360ed403771ad58d53"
+      "bytes": 15346,
+      "sha256": "a532f8ed5e84facf54d5f58ec9b80c6ddf24f65d15887cbb97b578abbfbefa3c"
     },
     {
       "path": "requirements.txt",
