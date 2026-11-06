@@ -1,5 +1,5 @@
 {
-  "source_snapshot_utc": "2026-10-29T08:39:38.160161+00:00",
+  "source_snapshot_utc": "2026-11-06T11:42:25.095562+00:00",
   "files": [
     {
       "path": ".github/workflows/release.yml",
@@ -23,8 +23,8 @@
     },
     {
       "path": "docs/readme/01-banner.gif",
-      "bytes": 684998,
-      "sha256": "7ef2260af6dc4ede2057375ff824c867fd36d50ad849cd2de24d80882f1cd414"
+      "bytes": 685323,
+      "sha256": "2101e7d8da850d0afe3b140f9f910f759d507552acd322293bc300c7a1dbf103"
     },
     {
       "path": "docs/readme/02-background.gif",
@@ -33,8 +33,8 @@
     },
     {
       "path": "docs/readme/03-results.gif",
-      "bytes": 352170,
-      "sha256": "053429e6bbce675d30dd7bc646dd8f93265f7082a97fe98e69cf0204cc591338"
+      "bytes": 349155,
+      "sha256": "d848515048eb88810b9878ba43d256c034220584652ec0de93623c387b3c437e"
     },
     {
       "path": "docs/readme/04-darwin-diagnostics.gif",
@@ -53,13 +53,13 @@
     },
     {
       "path": "docs/readme/07-applications.gif",
-      "bytes": 676679,
-      "sha256": "7286039be74064050876e872bdc31382ea3de4597d28b2050d6bfcd1aaa88e0e"
+      "bytes": 678718,
+      "sha256": "46d36f80c6668bd8c8d56b61d797f6dabab4c2b0052f47a335670398731c12f3"
     },
     {
       "path": "docs/readme/08-improvements.gif",
-      "bytes": 463346,
-      "sha256": "c2f4b0b2b097aba0ce13f32c1fdd1a0b3af1e2dce4c429f4600ae7a41ac968db"
+      "bytes": 465191,
+      "sha256": "4585de4825b694e092ee029371e18ac5b23790d58d82b23483d7123dc30650db"
     },
     {
       "path": "docs/readme/09-roadmap.gif",
@@ -68,8 +68,8 @@
     },
     {
       "path": "docs/readme/10-structure.gif",
-      "bytes": 1262529,
-      "sha256": "256b88e8ce462716925431d382fd8d2d2439a8005bf71448ea09933fd386fcc9"
+      "bytes": 1269255,
+      "sha256": "de0bcf936186a7046d7b98b0ffcf56652a9ba0522f91b408f6499ec671407c11"
     },
     {
       "path": "docs/RESEARCH_PROTOCOL.md",
@@ -193,8 +193,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 15346,
-      "sha256": "a532f8ed5e84facf54d5f58ec9b80c6ddf24f65d15887cbb97b578abbfbefa3c"
+      "bytes": 15793,
+      "sha256": "580dc578468813e346f9572ca958436a0db146295d709503dd99f1672cb8c840"
     },
     {
       "path": "requirements.txt",

@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="docs/readme/01-banner.gif" alt="Airline satisfaction: boosted trees and public members feed a nested stack" width="100%">
+<img src="docs/readme/01-banner.gif" alt="Airline satisfaction: boosted trees and public members feed an out-of-fold stack" width="100%">
 
-# Airline satisfaction — nested ensembles and Darwin-Cage diagnostics
+# Airline satisfaction — stacked ensembles and Darwin-Cage diagnostics
 
 [![Release integrity](https://github.com/Agnuxo1/s6e10-airline-satisfaction/actions/workflows/release.yml/badge.svg)](https://github.com/Agnuxo1/s6e10-airline-satisfaction/actions/workflows/release.yml) [![licence: MIT](https://img.shields.io/badge/licence-MIT-199e70?style=flat-square)](LICENSE) ![python: 3.11+](https://img.shields.io/badge/python-3.11+-3987e5?style=flat-square&logo=python&logoColor=white) [![status: exploratory](https://img.shields.io/badge/status-exploratory-c98500?style=flat-square)](docs/RESEARCH_PROTOCOL.md) [![Kaggle: Playground S6E10](https://img.shields.io/badge/Kaggle-Playground%20S6E10-5b6785?style=flat-square)](https://www.kaggle.com/competitions/playground-series-s6e10)
 
@@ -26,8 +26,11 @@ trees [[1](#ref-1)], in the three widely used implementations XGBoost [[4](#ref-
 library of models by hill climbing [[11](#ref-11)], the approach used by the repository's blending tool.
 
 Because the stack and its members are tuned on the same data, honest evaluation matters: selecting a model with
-cross-validation and then reporting that same cross-validation score is optimistically biased, which is why nested
-validation is used instead [[7](#ref-7)]. The metric throughout is the area under the ROC curve [[8](#ref-8)]; the
+cross-validation and then reporting that same cross-validation score is optimistically biased [[7](#ref-7)]. Here the
+level-2 logistic regression is fitted on four folds and scored on the fifth, but stacking here is not fully nested:
+level-1 OOF predictions for the other folds come from models that saw the labels of the scored fold, and the GBDTs use
+the validation fold for early stopping. The size of that bias was not measured, so the stack figures compare systems
+under one procedure and are not external performance estimates. The metric throughout is the area under the ROC curve [[8](#ref-8)]; the
 competition is Kaggle Playground Series S6E10 [[12](#ref-12)], with the original airline-satisfaction rows available as an
 optional extra training source [[15](#ref-15)].
 
@@ -40,14 +43,14 @@ previous Playground episode. The 124-member public prediction library used in th
 
 ## Results and contribution
 
-<p align="center"><img src="docs/readme/03-results.gif" alt="Local OOF and nested AUC for E001, E014, B001 and S001, and the three public scores, in separate panels" width="100%"><br><sub>Fig. 2 — Local evidence (left) and Kaggle public scores (right) are different evaluations. Data: the table below and docs/official-readback.json.</sub></p>
+<p align="center"><img src="docs/readme/03-results.gif" alt="Local OOF AUC for E001, E014, B001 and S001, and the three public scores, in separate panels" width="100%"><br><sub>Fig. 2 — Local evidence (left) and Kaggle public scores (right) are different evaluations. Data: the table below and docs/official-readback.json.</sub></p>
 
 | Experiment | Local evidence | Official public score recorded in project log |
 |---|---|---|
 | E001 CatBoost baseline | OOF AUC 0.958327 |0.95798, submission 57736176 |
 | E014 feature/categorical model | OOF AUC 0.960984 | Not assigned a separate official score here |
-| B001, 14 own GBDTs | nested/LOFO stack AUC 0.961244 |0.96083, submission 57759629 |
-| S001, 14 own+124 public members | nested stack AUC 0.962066 |0.96166, submission 57759904 |
+| B001, 14 own GBDTs | out-of-fold/LOFO stack AUC 0.961244 |0.96083, submission 57759629 |
+| S001, 14 own+124 public members | out-of-fold stack AUC 0.962066 |0.96166, submission 57759904 |
 | D001 Darwin residual study | single-model held-out fold0.95858→0.95959 | Diagnostic gain, not official gain |
 | D002 Darwin on own blend, 3 seeds |1/0/1 programs confirmed; applying them lowers AUC about0.0006 | Rejected for final blend |
 | D003 Darwin on full stack, 3 seeds |0/0/0 programs confirmed; calibration-only change−0.000004 | No contribution established on final stack |
@@ -83,7 +86,7 @@ airline system, so the following are potential uses of the methods, not achieved
 - **Driver analysis.** The logged runs compare representations (ratings and other columns as categories, a route
   identifier built from Flight Distance); the same comparison could show which inputs carry signal in other surveys.
 - **Route-level monitoring.** Route-like keys that helped the models could also flag route-specific service issues.
-- **Fold-safe ensembling.** The nested stack and leave-one-fold-out blend are a template for other tabular binary
+- **Fold-safe ensembling.** The out-of-fold stack and leave-one-fold-out blend are a template for other tabular binary
   tasks.
 - **Auditable experiment logs.** Configurations, `runs.csv` and `LOG.md` keep negative results next to positive ones.
 - **Residual-structure checks.** The Darwin-Cage diagnostic asks whether a strong model leaves group structure in its
@@ -94,8 +97,8 @@ airline system, so the following are potential uses of the methods, not achieved
 <p align="center"><img src="docs/readme/08-improvements.gif" alt="Limitations on the left turning into proposed next experiments on the right" width="100%"><br><sub>Fig. 7 — Each improvement targets a limitation stated in this repository.</sub></p>
 
 - **Evidence level.** Public-leaderboard selection is exploratory and not a hidden-test generalisation guarantee.
-  Hidden-test results, when available, should be reported next to the nested-CV estimates, which remain the primary
-  local evidence [[7](#ref-7)].
+  Hidden-test results, when available, should be reported next to the out-of-fold CV estimates, which remain the
+  primary local evidence but are not external performance estimates [[7](#ref-7)].
 - **Dependence on public members.** The log attributes +0.00082 of the final stack over the own-model blend to the
   124 public members. More diverse own members (other seeds, other model families) would show how far the own
   pipeline reaches alone.
@@ -119,9 +122,9 @@ Planned next steps, in order; none is claimed as started:
 
 ## Structure and licences
 
-<p align="center"><img src="docs/readme/10-structure.gif" alt="Pipeline: base models, OOF predictions, nested stack, submission, with the Darwin diagnostic branch and tools" width="100%"><br><sub>Fig. 9 — Code structure as described in this section. Sources: src/*.py and tools/*.py.</sub></p>
+<p align="center"><img src="docs/readme/10-structure.gif" alt="Pipeline: base models, OOF predictions, out-of-fold stack, submission, with the Darwin diagnostic branch and tools" width="100%"><br><sub>Fig. 9 — Code structure as described in this section. Sources: src/*.py and tools/*.py.</sub></p>
 
-`src/runner_body.py`: base models; `stack_body.py`: nested stack; `darwin_core.py` and `darwin_body.py`: own residual search; `tools/`: packaging and fold-safe diagnostics. External credit: public library **cdeotte124** and dataset `arseniyshutko/binary-aviation-satisfaction-129k`; their source terms still apply. Code developed here: MIT. Follow [research protocol](docs/RESEARCH_PROTOCOL.md). Public-leaderboard selection remains exploratory, not a hidden-test generalisation guarantee.
+`src/runner_body.py`: base models; `stack_body.py`: out-of-fold stack; `darwin_core.py` and `darwin_body.py`: own residual search; `tools/`: packaging and fold-safe diagnostics. External credit: public library **cdeotte124** and dataset `arseniyshutko/binary-aviation-satisfaction-129k`; their source terms still apply. Code developed here: MIT. Follow [research protocol](docs/RESEARCH_PROTOCOL.md). Public-leaderboard selection remains exploratory, not a hidden-test generalisation guarantee.
 
 ## Bibliography
 
@@ -145,5 +148,5 @@ Planned next steps, in order; none is claimed as started:
 
 <div align="center">
 <sub>Built by <a href="https://github.com/Agnuxo1">Francisco Angulo de Lafuente</a> · every figure is an animated
-rendering of the published file named in its footer · <a href="#airline-satisfaction--nested-ensembles-and-darwin-cage-diagnostics">back to top ↑</a></sub>
+rendering of the published file named in its footer · <a href="#airline-satisfaction--stacked-ensembles-and-darwin-cage-diagnostics">back to top ↑</a></sub>
 </div>
