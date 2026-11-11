@@ -14,6 +14,10 @@ Reproducible project for [Kaggle Playground S6E10](https://www.kaggle.com/compet
 
 **Contents** — [Background](#background) · [Results and contribution](#results-and-contribution) · [Reproduce](#reproduce) · [Real-world applications](#real-world-applications) · [Possible improvements](#possible-improvements) · [Future work](#future-work) · [Structure and licences](#structure-and-licences) · [Bibliography](#bibliography)
 
+<!-- impact-note:start -->
+<sub><strong>Efficiency and practical value.</strong> Fold-safe stacking combines complementary tree models to improve satisfaction ranking, while residual-program diagnostics check whether further complexity adds useful information. The <a href="#results-and-contribution">recorded comparisons</a> distinguish gains from the credited public prediction library from Darwin-Cage hypotheses that did not improve the final stack. Reusable configurations and retained negative results can reduce repeated experimentation; the competition evidence does not establish operational airline savings.</sub>
+<!-- impact-note:end -->
+
 ## Background
 
 <p align="center"><img src="docs/readme/02-background.gif" alt="Animated timeline from stacked generalisation (1992) to this repository (2026)" width="100%"><br><sub>Fig. 1 — Milestones behind the pipeline. Sources: bibliography below.</sub></p>
